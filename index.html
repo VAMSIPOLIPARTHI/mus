@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Music Website</h1>
+        <nav>
+            <a href="{% url 'track_list' %}">Tracks</a>
+            <!-- Add more navigation links as needed -->
+        </nav>
+    </header>
+    <main>
+        <h2>Featured Tracks</h2>
+        <!-- Content goes here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Music Website</p>
+    </footer>
+</body>
+</html>
